@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <h3><b>Microverse Capstone Project 1</b></h3>
+  <h3><b>Microverse Capstone Project 1</b> </h3>
 
 </div>
 
@@ -30,7 +30,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Hello Microverse <a name="about-project"></a>
+# 📖 HTML + basic JavaScript Capstone <a name="about-project"></a>
 
 This **Capstone Project** serves as a showcase of my acquired skills during the first module of Microverse, where I proficiently utilize HTML5, CSS, and JavaScript to present a collection of my work in a visually appealing and well-organized manner. With a responsive design, the project seamlessly adapts to different screen sizes, while incorporating dynamic pages through JavaScript and a user-friendly navigation bar for seamless exploration. Leveraging the Bootstrap framework adds additional functionality and style. By implementing semantic HTML5 markup, the project ensures accessibility and search engine optimization. Overall, this Capstone Project is a testament to my expertise in HTML5, CSS, and JavaScript, highlighting my ability to create captivating and functional web pages.
 
