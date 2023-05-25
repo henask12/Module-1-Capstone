@@ -84,7 +84,8 @@ function loadCards() {
       cardData[i].photo,
       cardData[i].name,
       cardData[i].role,
-      cardData[i].description);
+      cardData[i].description
+    );
     cardRow.appendChild(card);
   }
 
@@ -104,7 +105,8 @@ function handleResize() {
         cardData[i].photo,
         cardData[i].name,
         cardData[i].role,
-        cardData[i].description);
+        cardData[i].description
+      );
       cardRow.appendChild(card);
     }
   } else {
