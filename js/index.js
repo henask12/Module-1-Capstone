@@ -80,7 +80,11 @@ function loadCards() {
       loadMoreBtn.style.display = 'none';
       break;
     }
-    const card = createCard(cardData[i].photo, cardData[i].name, cardData[i].role, cardData[i].description);
+    const card = createCard(
+      cardData[i].photo,
+      cardData[i].name,
+      cardData[i].role,
+      cardData[i].description);
     cardRow.appendChild(card);
   }
 
@@ -96,7 +100,11 @@ function handleResize() {
   if (window.innerWidth >= 768) {
     loadMoreBtn.style.display = 'none';
     for (let i = 0; i < cardData.length; i += 1) {
-      const card = createCard(cardData[i].photo, cardData[i].name, cardData[i].role, cardData[i].description);
+      const card = createCard(
+        cardData[i].photo,
+        cardData[i].name,
+        cardData[i].role,
+        cardData[i].description);
       cardRow.appendChild(card);
     }
   } else {
