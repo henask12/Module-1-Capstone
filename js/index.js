@@ -124,7 +124,7 @@ function handleResize() {
 }
 
 // Execute the loadCards function when the page has finished loading
-window.addEventListener("load", function () {
+window.addEventListener("load", () => {
     const loadMoreBtn = document.getElementById("loadMoreBtn");
 
     if (loadMoreBtn) {
