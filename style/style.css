@@ -6,12 +6,6 @@
   color: #f07f7e !important;
 }
 
-/* @media (min-width: 768px) {
-
-} */
-
-/* Media queries for responsiveness */
-
 .auto-layout {
   display: flex;
   flex-direction: column;
@@ -202,13 +196,11 @@
   display: none;
 }
 
-@media (max-width: 767px) {
-  .card-content {
-    display: grid;
-    grid-template-columns: 20% 20% 60%;
-    padding: 15px 9px;
-    align-items: center;
-  }
+.card-content {
+  display: grid;
+  grid-template-columns: 20% 20% 60%;
+  padding: 15px 9px;
+  align-items: center;
 }
 
 .card-image {
@@ -229,12 +221,6 @@
   letter-spacing: 0.06em;
   color: #fff;
 }
-
-/* Responsive adjustments for mobile */
-
-/* @media only screen and  (max-width: 600px) {
-
-} */
 
 @media (min-width: 768px) {
   .navbar {
@@ -313,7 +299,7 @@
     height: 30px;
     background: #3e3e3e;
     color: #fff;
-    box-sizing: border-box; /* Added property */
+    box-sizing: border-box;
   }
 
   .navbar-nav-banner {
@@ -329,7 +315,7 @@
     padding-right: 190px;
     width: 100%;
     height: 30px;
-    box-sizing: border-box; /* Added property */
+    box-sizing: border-box;
   }
 
   .speaker-body {
@@ -350,7 +336,6 @@
     color: #fff;
   }
 
-  /* English */
   .nav-banner-item {
     width: 58px;
     height: 17px;
@@ -367,7 +352,6 @@
     flex-grow: 0;
   }
 
-  /* Navbar banner */
   .nav-banner-item a {
     color: #fff;
     text-decoration: none;
@@ -415,6 +399,7 @@
     align-items: center;
     height: auto;
     background-color: #f7f7f8;
+    overflow-x: hidden;
   }
 
   .mobile-logo {
@@ -488,7 +473,6 @@
   }
 
   .card-content {
-    /* display: row; */
     grid-template-columns: 0% 20% 60% !important;
     padding: 15px 9px !important;
     align-items: center !important;
@@ -559,8 +543,6 @@
 }
 
 .partner-logo {
-  /* width: 200px;
-height: 75px; */
   margin-top: 70px;
 }
 
@@ -667,7 +649,7 @@ height: 75px; */
     align-items: center;
     padding: 0 20px;
     width: 100%;
-    max-width: 100vw; /* Changed from max-width: 100%; */
+    max-width: 100vw;
     height: 75px;
     background: #fff;
     overflow-x: hidden;
@@ -675,7 +657,7 @@ height: 75px; */
 
   .navbar-nav {
     flex-grow: 1;
-    flex-shrink: 0; /* Added to prevent the navbar items from shrinking excessively */
-    margin-right: 20px; /* Added to create some spacing between navbar items */
+    flex-shrink: 0;
+    margin-right: 20px;
   }
 }
