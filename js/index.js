@@ -80,7 +80,7 @@ function loadCards() {
     const loadMoreBtn = document.getElementById("loadMoreBtn");
     const endIndex = currentIndex + cardsPerLoad;
 
-    for (let i = currentIndex; i < endIndex; i + 1) {
+    for (let i = currentIndex; i < endIndex; i += 1) {
         if (i >= cardData.length) {
             loadMoreBtn.style.display = "none";
             break;
@@ -108,7 +108,7 @@ function handleResize() {
     if (window.innerWidth >= 768) {
         loadMoreBtn.style.display = "none";
         // Display all cards on desktop
-        for (let i = 0; i < cardData.length; i + 1) {
+        for (let i = 0; i < cardData.length; i += 1) {
             const card = createCard(
                 cardData[i].image,
                 cardData[i].text,
